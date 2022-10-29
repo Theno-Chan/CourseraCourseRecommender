@@ -1,38 +1,18 @@
-﻿### [ Practice Module ] Project Submission Template: Github Repository & Zip File
-
-**[ Naming Convention ]** CourseCode-StartDate-BatchCode-TeamName-ProjectName.zip
-
-* **[ MTech Thru-Train Group Project Naming Example ]** IRS-PM-2020-01-18-IS02PT-GRP-AwsomeSG-HDB_BTO_Recommender.zip
-
-* **[ MTech Stackable Group Project Naming Example ]** IRS-PM-2020-01-18-STK02-GRP-AwsomeSG-HDB_BTO_Recommender.zip
-
-[Online editor for this README.md markdown file](https://pandao.github.io/editor.md/en.html "pandao")
-
----
-
-### <<<<<<<<<<<<<<<<<<<< Start of Template >>>>>>>>>>>>>>>>>>>>
-
----
-
 ## SECTION 1 : PROJECT TITLE
-## Singapore Housing & Deveoplment Board - BTO Recommender System
+## Coursera Course Recommender System
 
-<img src="SystemCode/clips/static/hdb-bto.png"
-     style="float: left; margin-right: 0px;" />
+![ug-login](./img/ug-login.png)
 
 ---
 
-## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Singapore ranks amongst countries with the highest population density in the world. In a bid to have firm control over long term urban planning, the Singapore government came up with the “Built to Order” (abbreviated BTO) initiative back in 2001. These are new Housing Development Board (HDB) flats tightly controlled by their eligibility and quantity released every year. In more recent years, the modern BTO scheme in Singapore requires a waiting period of 3-4 years, and is generally targeted at young Singaporean couples looking to purchase their first property and set up a family. Nationality and income ceilings are some of the broad filters that determine one’s eligibility for the highly sought after projects. 
+## SECTION 2 : EXECUTIVE SUMMARY
+With the explosion of online information, modern people can easily access different fields of knowledge and develop an interest in areas they may not be familiar with. With the gradual maturation of online education platforms, there is a great deal of enthusiasm for people to try out new knowledge online. However, with the variety of courses available on the internet, it is easy to be overwhelmed and unable to choose the one that best suits their background and interests. To help people have an easy and happy start to their e-learning experience, this project developed a course recommender for the Coursera education platform. The objective is to select the best courses that match the user's interests from the vast educational resources and recommend them to the user, helping the user to make the proper choice more easily and quickly. After the user selects one of the courses, the system will calculate the similarity among the courses and keep making recommenders to our users.
 
+Three kinds of reasoning systems—content-based reasoning, similarity-based reasoning, and knowledge-based reasoning—are used by the product. We carefully observed the courses’ details and extracted a set of features from them to thoroughly describe Coursera’s course. The system also has a user preference setting page for collecting and generalising user preferences into the user profile. Based on the user's profile, the system will recommend the top ten closest match courses against the course descriptions to the user. Besides, the similarity between every two courses is pre-calculated considering all the set of course features and is loaded into the system. Each time the user selects a course of interest, the system will recommend ten similar courses, ranked by their distance. Each element in the set of features disparately contributes to the similarity calculation. Our team assigned different weights to different features based on our research and knowledge, to perform the similarity calculation.
 
-Our team, comprising of 6 young Singaporeans, all hope to be property owners one day. Many of our peers opt for BTO flats due to their affordability, existence of financial aid from the government, as well as their resale value. However, there often exists a knowledge gap for these young couples during the decision making process and they end up making potentially regretful decisions. We would like to bridge this knowledge gap, and have hence chosen to base our project on creating a recommender system for BTO flats, utilizing the data from recent launches in Tampines, Eunos, Sengkang and Punggol. 
+The knowledge base for this project is collected from open source Coursera Course Dataset published on Kaggle, combined with further detailed course information scraped from Coursera's official website. Data preparation and data transformation, such as data cleaning and feature engineering, are applied to the raw data. All processed course features are stored in an SQL database. According to the attribution of similarity-based reasoning, the similarity between every two classes is pre-calculated. The top 10 similar courses’ id are then stored in the SQL database.
 
-
-Using the techniques imparted to us in lectures, our group first set out to build a sizeable knowledge base via conducting an interview and administering a survey. While building the system, we utilized tools such as Java to scrape real time data from HDB website and transform it into a database, CLIPS to synthesize the rule based reasoning process, and Python to integrate it into an easy to use UI for the everyday user. To add icing on the cake, we even hosted the system on a website so that the everyday user can access it through the click of a link.
-
-
-Our team had an amazing time working on this project, and hope to share our insights with everyone. Despite a focus on BTO flats, we would recommend it for everybody interested in understanding property market trends for residence or investment purposes. There truly are a wide array of factors behind the decision to invest in a property, and we only wish there was more time to work on the scope and scale of the project. 
+With the Coursera Course Recommender System, one can approach a suitable set of courses in a short time, saving a lot of unnecessary time in browsing through numerous web pages and picking a satisfying course. It allows you to focus more on the course's content and learning itself.
 
 ---
 
@@ -40,20 +20,16 @@ Our team had an amazing time working on this project, and hope to share our insi
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Desmond Chua | A1234567A | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567A@nus.edu.sg |
-| Chang Ye Han | A1234567B | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
-| Chee Jia Wei | A1234567C | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
-| Ganesh Kumar | A1234567D | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
-| Jeanette Lim | A1234567E | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567E@qq.com |
+| Chen Zihao | A0261858R | 1. Data collection<br />2. Data preprocessing<br />3. System models and algorithms design<br />4. Report writing | E0983252@nus.edu.sg |
+| Liu Haoran | A0261945X | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
+| Ku Maier | A0261822J | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
+| Shen Jingyu | A0261670H | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
 
 ---
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
-
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
-More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
+[![Coursera Course Recommender](http://i3.ytimg.com/vi/6m9p4wTfvBM/hqdefault.jpg)](https://www.youtube.com/watch?v=6m9p4wTfvBM "Coursera Course Recommender System")
 
 ---
 
@@ -61,65 +37,148 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 `Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
 
-### [ 1 ] To run the system using iss-vm
+### To run this system on your computer
 
-> download pre-built virtual machine from http://bit.ly/iss-vm
+#### Requirements
 
-> start iss-vm
+> Enter folder 
+> $ cd SystemCode/course-recommendation-main
 
-> open terminal in iss-vm
+> Install dependencies
+> pip install -r requirements.txt
 
-> $ git clone https://github.com/telescopeuser/Workshop-Project-Submission-Template.git
+> python manage.py makemigrations
 
-> $ source activate iss-env-py2
+> python manage.py migrate
 
-> (iss-env-py2) $ cd Workshop-Project-Submission-Template/SystemCode/clips
+> python manage.py runserver
 
-> (iss-env-py2) $ python app.py
+> **Go to URL using web browser** http://127.0.0.1:8000/
 
-> **Go to URL using web browser** http://0.0.0.0:5000 or http://127.0.0.1:5000
+#### User Guide
 
-### [ 2 ] To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
+1. Installation Guide
 
-> $ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
+   As the development and debugging of this project is based on the Windows operating system, we strongly recommend that you use Windows to run our system. All the following guides are based on Windows.
 
-> $ pip install pyclips flask flask-socketio eventlet simplejson pandas
+   + Step1: Download and install Anaconda
+
+     You can skip this step if you have downloaded and installed anaconda.
+     Anaconda is an open source distribution of Python and R that simplifies package management systems and deployment. You can download Anaconda from their website and install it by following official instruction.
+
+   + Step2: Create a new conda environment
+
+     As a large number of third party Python packages will be used in this project, you should create a new conda environment to avoid conflicts between packages.
+
+     Type in conda prompt: conda create -n your env name python=3.8
+
+   + Step3: Clone or download our system from Github
+
+     You can use git command to clone our project from Github.
+     Type in git prompt: git clone https://github.com/maier-ku/course-recommendation.git
+
+     Or you can directly download system code from Github.
+
+   + Step4: Install the Required Python Packages
+
+     You need to change directory to the Clone Repository folder or download folder. 
+
+     Type in cmd: cd /to/the/right/folder
+
+     And run this command in cmd: pip install -r requirements.txt
+
+   + Step5: Run web server
+
+     Run this command in cmd: python manage.py runserver
+
+     After running, you can open your web browser and type 127.0.0.1:8000 in the address bar. Then you will be directed to the index page!
+
+2. User Manual
+
+   + Sign up for a new account
+
+     Click on the ”signup” button on the home page and you will be redirected to the registration page. You should enter your username as well as your password in the corresponding fields on the new page and click on the ”Sign up” button. 
+
+     ![ug-login](./img/ug-signup.png)
+
+   + Log in
+
+     You should enter your username as well as your password in the corresponding fields on the home page and click on the ”Log in” button.
+
+     ![ug-login](./img/ug-login.png)
+
+   + Set up your preference
+
+     You will access this part in two ways: when you first register your account or when you click the ”Reset your preferences” button. You should enter at least 1 subject and up to five subjects. And other fields marked with an asterisk are required. 
+
+     ![ug-login](./img/ug-prefer.png)
+
+   + Personalised recommendations
+
+     Once you have finished logging in or completed your preferences, you will be able to access the personalised recommendation results. This page will display the top ten recommendations calculated by the model and you can view basic information about the course on this page. You can also click on the course link to access the course details.
+
+     ![ug-login](./img/ug-person.png)
+
+   + Courses details and recommendations
+
+     This page will show you details of the course you clicked on, as well as ten similar courses recommended by the system.
+
+     ![ug-login](./img/ug-course.png)
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
 
 `Refer to project report at Github Folder: ProjectReport`
 
-**Recommended Sections for Project Report / Paper:**
-- Executive Summary / Paper Abstract
-- Sponsor Company Introduction (if applicable)
-- Business Problem Background
-- Market Research
-- Project Objectives & Success Measurements
-- Project Solution (To detail domain modelling & system design.)
-- Project Implementation (To detail system development & testing approach.)
-- Project Performance & Validation (To prove project objectives are met.)
-- Project Conclusions: Findings & Recommendation
-- Appendix of report: Project Proposal
-- Appendix of report: Mapped System Functionalities against knowledge, techniques and skills of modular courses: MR, RS, CGS
-- Appendix of report: Installation and User Guide
-- Appendix of report: 1-2 pages individual project report per project member, including: Individual reflection of project journey: (1) personal contribution to group project (2) what learnt is most useful for you (3) how you can apply the knowledge and skills in other situations or your workplaces
-- Appendix of report: List of Abbreviations (if applicable)
-- Appendix of report: References (if applicable)
+**Sections for Project Report / Paper:**
+
++ Executive Summary 
++ Problem Statement & Objectives
+  + Market Search 
+    + Popularity of online learning
+    + Online learning industry market size and trends
+    + Existing online courses recommendation systems, features and pricing
+    + Areas of improvements
+  + Aims and Objectives
+    + Aims
+    + Objectives
++ Solution
+  + Knowledge Modelling and Acquisition
+    + Knowledge Acquisition
+    + Knowledge Representation
+    + Knowledge Implementation (Model)
+  + System architecture
+  + Recommender Logic
+    + User-preference courses recommender
+    + Subsequent content-based user-courses recommender
+  + System Back-end
+    + Web server framework
+    + Database
+  + System Front-end (User interface)
++ Project Implementation: A Case Study
++ System Performance
+  + Recommendation For User
+  + Recommendation For Course
+
+- Conclusion
+- References
+- Appendix
+  - Appendix A: Project Proposal
+  - Appendix B: Functionalities & Intelligent Reasoning System Mapping
+  - Appendix C: User Manual Guide
+  - Appendix D: Individual Project report
 
 ---
 ## SECTION 7 : MISCELLANEOUS
 
 `Refer to Github Folder: Miscellaneous`
 
-### HDB_BTO_SURVEY.xlsx
-* Results of survey
-* Insights derived, which were subsequently used in our system
+### Coursera.csv
+* Application data that we collected from ‘Kaggle’ website
 
----
+### Coursera_courses.csv
 
-### <<<<<<<<<<<<<<<<<<<< End of Template >>>>>>>>>>>>>>>>>>>>
+* Application data that we collected from ‘Kaggle’ website
 
 ---
 
