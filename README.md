@@ -21,7 +21,7 @@ With the Coursera Course Recommender System, one can approach a suitable set of 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
 | Chen Zihao | A0261858R | 1. Data collection<br />2. Data preprocessing<br />3. System models and algorithms design<br />4. Report writing | E0983252@nus.edu.sg |
-| Liu Haoran | A0261945X | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567B@gmail.com |
+| Liu Haoran | A0261945X | 1. System architecture design <br/>2. Back-end web service development <br />3. Database development <br />4. Report writing| haoran.h.liu@u.nus.edu |
 | Ku Maier | A0261822J | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
 | Shen Jingyu | A0261670H | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
 
@@ -41,12 +41,13 @@ With the Coursera Course Recommender System, one can approach a suitable set of 
 
 #### Requirements
 
-> Enter folder 
+Enter folder:
 > $ cd SystemCode/course-recommendation-main
 
-> Install dependencies
+Install dependencies:
 > pip install -r requirements.txt
 
+Run Django web server:
 > python manage.py makemigrations
 
 > python manage.py migrate
@@ -75,7 +76,7 @@ With the Coursera Course Recommender System, one can approach a suitable set of 
    + Step3: Clone or download our system from Github
 
      You can use git command to clone our project from Github.
-     Type in git prompt: git clone https://github.com/maier-ku/course-recommendation.git
+     Type in git prompt: git clone https://github.com/Theno-Chan/CourseraCourseRecommender.git
 
      Or you can directly download system code from Github.
 
