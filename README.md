@@ -22,7 +22,7 @@ With the Coursera Course Recommender System, one can approach a suitable set of 
 | :------------ |:---------------:| :-----| :-----|
 | Chen Zihao | A0261858R | 1. Data collection<br />2. Data preprocessing<br />3. System models and algorithms design<br />4. Report writing | E0983252@nus.edu.sg |
 | Liu Haoran | A0261945X | 1. System architecture design <br/>2. Back-end web service development <br />3. Database development <br />4. Report writing| haoran.h.liu@u.nus.edu |
-| Ku Maier | A0261822J | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567C@outlook.com |
+| Ku Maier | A0261822J | 1. Product prototype design <br/>2.Data collection <br/>3.front-end User Interface development <br/>4.Report writing and business video making| e0983216@u.nus.edu |
 | Shen Jingyu | A0261670H | xxxxxxxxxx yyyyyyyyyy zzzzzzzzzz| A1234567D@yahoo.com |
 
 ---
