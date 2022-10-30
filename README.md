@@ -20,7 +20,7 @@ With the Coursera Course Recommender System, one can approach a suitable set of 
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Chen Zihao | A0261858R | 1. Data collection<br />2. Data preprocessing<br />3. System models and algorithms design<br />4. Report writing | E0983252@nus.edu.sg |
+| Chen Zihao | A0261858R | 1. Data collection<br />2. Data preprocessing<br />3. System models and algorithms design<br />4. Report writing | e0983252@nus.edu.sg |
 | Liu Haoran | A0261945X | 1. System architecture design <br/>2. Back-end web service development <br />3. Database development <br />4. Report writing| haoran.h.liu@u.nus.edu |
 | Ku Maier | A0261822J | 1. Product prototype design <br/>2.front-end User Interface development <br/>3.Report writing and business video making| e0983216@u.nus.edu |
 | Shen Jingyu | A0261670H | 1. Market Research <br/>2. front-end User Interface development <br/> 3. Report writing and business video making | e0983064@u.nus.edu |
